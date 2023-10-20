@@ -1,4 +1,4 @@
-let obj1 ={name:"Person1",age:5};
+let obj1 ={name:"Person2",age:5};
 let obj2 ={age:5,name:"person1"};
 
 //Object.value(obj1).toString() === Object.value(obj2).toString();
@@ -19,4 +19,4 @@ if(Object.keys(obj1).length==Object.keys(obj2).length){
 else {
     flag=false;
 }
-console.log("is object equal"+flag);
+console.log(flag);
